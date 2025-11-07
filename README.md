@@ -13,28 +13,29 @@
 ### 📖 Deskripsi Aplikasi
 Aplikasi **Katalog Hasil Pertanian** merupakan aplikasi katalog sederhana yang menampilkan beberapa hasil pertanian lokal Indonesia. Aplikasi ini dibuat menggunakan **Flutter** dengan fitur:
 
-- **GridView** untuk menampilkan daftar produk.
-- **Custom Widget** (`ProductCard`) untuk setiap item.
-- **Animasi transition** menggunakan `Hero` & `AnimatedScale`.
-- **Stateful widget** untuk fitur **Favorite**.
-- **Splash Screen** pada saat aplikasi pertama kali dijalankan.
+- Menampilkan daftar produk hasil pertanian menggunakan **GridView**  
+- **Custom Widget** (`ProductCard`) untuk tiap item  
+- Animasi transisi dengan **Hero** & **AnimatedScale**  
+- **StatefulWidget** untuk fitur **Favorite**  
+- **Splash Screen** saat pertama kali aplikasi dijalankan  
 
 ---
 
 ### 📂 Link Google Drive (Laporan + Video Demo)
-🔗 https://drive.google.com/drive/folders/1oWxVn_z3TJhanIcaDX726o7y75oAdgmM?usp=sharing
+[Laporan + Video Demo](https://drive.google.com/drive/folders/1oWxVn_z3TJhanIcaDX726o7y75oAdgmM?usp=sharing)
 
 ---
 
 ### 🧩 Struktur Proyek
 lib/
-├── main.dart
-├── splash_screen.dart
-├── home_page.dart
-├── product_card.dart
-└── detail_page.dart
-pubspec.yaml → konfigurasi dependencies & assets
-assets/images/ → gambar hasil pertanian
+├── main.dart  
+├── splash_screen.dart  
+├── home_page.dart  
+├── product_card.dart  
+└── detail_page.dart  
+
+pubspec.yaml → konfigurasi dependencies & assets  
+assets/images/ → gambar hasil pertanian  
 assets/screenshots/ → screenshot tampilan aplikasi
 
 ---
@@ -60,11 +61,11 @@ assets/screenshots/ → screenshot tampilan aplikasi
 ---
 
 ### ✅ Status
-- Aplikasi dapat dijalankan dengan baik.
-- Implementasi widget wajib telah terpenuhi (GridView, Custom Widget, Animasi).
-- Laporan & Video telah di-upload pada Google Drive.
-- README telah diperbarui sesuai instruksi tugas.
+- ✅ Aplikasi dapat dijalankan dengan baik  
+- ✅ Implementasi widget wajib telah terpenuhi (GridView, Custom Widget, Animasi)  
+- ✅ Laporan & Video telah di-upload pada Google Drive  
+- ✅ README telah diperbarui sesuai instruksi tugas  
 
 ---
 
-© 2025 - Caca Cahyadi | Universitas Teknologi Bandung
+© 2025 - Caca Cahyadi | Teknik Informatika | Universitas Teknologi Bandung
