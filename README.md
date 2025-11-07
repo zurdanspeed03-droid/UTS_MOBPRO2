@@ -1,31 +1,28 @@
 # 📱 UTS Mobile Programming 2
-## Judul Aplikasi: Katalog Hasil Pertanian 🌾
+## Judul Aplikasi: **Katalog Hasil Pertanian** 🌾
 
 ### 👩‍🎓 Identitas Mahasiswa
 - **Nama:** Caca Cahyadi  
 - **NIM:** 232101058  
 - **Kelas:** TIF RP 23G  
 - **Mata Kuliah:** Pemrograman Mobile 2  
-- **Dosen Pengampu:** Niken Riyanti, ST.  
+- **Dosen Pengampu:** Niken Riyanti, ST.
 
 ---
 
 ### 📖 Deskripsi Aplikasi
-Aplikasi **Katalog Hasil Pertanian** dibuat menggunakan **Flutter (Dart)**.  
-Tujuannya untuk menampilkan berbagai hasil pertanian lokal Indonesia dalam bentuk katalog digital interaktif.  
-Fitur-fitur utama:
-- Tampilan **GridView** responsif (2–3 kolom)
-- **Custom Widget (ProductCard)**
-- **Animasi** dengan `AnimatedScale` & `Hero`
-- Fitur **Favorite (Stateful Widget)**
-- **Splash Screen** di awal aplikasi
+Aplikasi **Katalog Hasil Pertanian** merupakan aplikasi katalog sederhana yang menampilkan beberapa hasil pertanian lokal Indonesia. Aplikasi ini dibuat menggunakan **Flutter** dengan fitur:
+
+- **GridView** untuk menampilkan daftar produk.
+- **Custom Widget** (`ProductCard`) untuk setiap item.
+- **Animasi transition** menggunakan `Hero` & `AnimatedScale`.
+- **Stateful widget** untuk fitur **Favorite**.
+- **Splash Screen** pada saat aplikasi pertama kali dijalankan.
 
 ---
 
-### 📂 Link Google Drive UTS
-Folder ini berisi laporan (.docx/.pdf) dan video demo aplikasi:
-
-🔗 [Buka Folder Google Drive UTS](https://drive.google.com/drive/folders/1oWxVn_z3TJhanIcaDX726o7y75oAdgmM?usp=sharing)
+### 📂 Link Google Drive (Laporan + Video Demo)
+🔗 https://drive.google.com/drive/folders/1oWxVn_z3TJhanIcaDX726o7y75oAdgmM?usp=sharing
 
 ---
 
@@ -36,17 +33,38 @@ lib/
 ├── home_page.dart
 ├── product_card.dart
 └── detail_page.dart
-- **pubspec.yaml** → konfigurasi dependencies & assets  
-- **assets/images/** → gambar produk pertanian  
+pubspec.yaml → konfigurasi dependencies & assets
+assets/images/ → gambar hasil pertanian
+assets/screenshots/ → screenshot tampilan aplikasi
 
 ---
 
-### 🏁 Status
-✅ Aplikasi berjalan lancar dan telah diuji.  
-✅ Semua fitur utama (animasi, GridView, splash screen, favorite) sudah berfungsi.  
-✅ Laporan dan video sudah terunggah di Google Drive.
+### 🖼️ Tampilan Aplikasi
+
+#### 1. Splash Screen
+<img src="assets/screenshots/splash.png" width="300">
+
+#### 2. Halaman Beranda
+<img src="assets/screenshots/home.png" width="300">
+
+#### 3. Detail Produk
+
+| Tomat | Cabai | Jagung |
+|------|------|--------|
+| <img src="assets/screenshots/detail_tomat.png" width="200"> | <img src="assets/screenshots/detail_cabai.png" width="200"> | <img src="assets/screenshots/detail_jagung.png" width="200"> |
+
+| Beras | Kentang |
+|------|---------|
+| <img src="assets/screenshots/detail_beras.png" width="200"> | <img src="assets/screenshots/detail_kentang.png" width="200"> |
+
+---
+
+### ✅ Status
+- Aplikasi dapat dijalankan dengan baik.
+- Implementasi widget wajib telah terpenuhi (GridView, Custom Widget, Animasi).
+- Laporan & Video telah di-upload pada Google Drive.
+- README telah diperbarui sesuai instruksi tugas.
 
 ---
 
 © 2025 - Caca Cahyadi | Universitas Teknologi Bandung
-
